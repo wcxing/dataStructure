@@ -63,8 +63,8 @@ function Queue () {
     }
 
 }
-var  queue = new Queue();
-queue.enqueue('a');
-console.log(queue.enqueue('b'));
+// var  queue = new Queue();
+// queue.enqueue('a');
+// console.log(queue.enqueue('b'));
 
 exports.Queue = Queue;
