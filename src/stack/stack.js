@@ -36,3 +36,13 @@ function Stack() {
         item = [];
     }
 }
+
+// for test
+var stackObj = new Stack();
+stackObj.push('a');
+console.log(stackObj.size());
+console.log(stackObj.top());
+stackObj.pop();
+console.log(stackObj.size());
+
+exports.Stack = Stack;
